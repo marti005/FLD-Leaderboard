@@ -1,0 +1,42 @@
+[
+    {
+        "player": "marti005",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }
+]

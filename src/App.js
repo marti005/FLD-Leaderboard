@@ -1,6 +1,12 @@
+import Chapterbuttons from "./chapterbuttons.js"
+import Leaderboard from "./leaderboard.js";
+
 function App() {
   return (
-    <h1> NERS sybau </h1>
+    <>
+      <Chapterbuttons />
+      <Leaderboard />
+    </>
   );
 }
 
