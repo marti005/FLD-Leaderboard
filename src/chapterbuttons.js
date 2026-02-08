@@ -1,12 +1,19 @@
 import "./css/chapterbuttons.css"
 
-export default function Chapterbuttons() {
+function Chapterbutton({chapter, clickButton}) {
+    return <button class="chapterbutton" onClick={clickButton}>Chapter {chapter}</button>
+}
+
+export default function Chapterbuttons({clickButton}) {
+    const buttons = [];
+
+    for (let i=1; i<=4; ++i) {
+        buttons.push(<Chapterbutton key={i} chapter={i} clickButton={() => clickButton(i)}/>)
+    }
+
     return <>
         <div id="buttons">
-            <button class="chapterbutton">Chapter 1</button>
-            <button class="chapterbutton">Chapter 2</button>
-            <button class="chapterbutton">Chapter 3</button>
-            <button class="chapterbutton">Chapter 4</button>
+            {buttons}
         </div>
     </>
 }

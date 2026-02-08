@@ -1,23 +1,13 @@
 #buttons {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     justify-content: center;
-    margin-top: 20px;
-    overflow: auto;
+    grid-auto-flow: column;
+    margin: 20px auto;
+
 }
 
 .chapterbutton {
     width: 150px;
     height: 50px;
     margin: 10px;
-}
-
-@media only screen and (max-width: 450px) {
-    #buttons {
-        justify-content: space-around;
-    }
-
-    .chapterbutton {
-        gap: 10px;
-    }
 }

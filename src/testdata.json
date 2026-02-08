@@ -8,7 +8,7 @@
                 "hits": 21
             },
             {
-                "finaltime": "31:21.433",
+                "finaltime": "1:31:21.433",
                 "initialtime": "26:53.200",
                 "hits": 4
             },
@@ -36,6 +36,11 @@
                 "finaltime": "22:56.900",
                 "initialtime": "54:01.466",
                 "hits": 26
+            },
+            {
+                "finaltime": "1:43:56.900",
+                "initialtime": "45:01.466",
+                "hits": 8
             }
         ]
     }
