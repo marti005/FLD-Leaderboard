@@ -1,17 +1,14 @@
 [
     {
         "player": "marti005",
+        "eliminated": "2",
         "runs": [
             {
                 "finaltime": "41:21.533",
                 "initialtime": "46:53.200",
                 "hits": 21
             },
-            {
-                "finaltime": "1:31:21.433",
-                "initialtime": "26:53.200",
-                "hits": 4
-            },
+            
             {
                 "finaltime": "22:56.900",
                 "initialtime": "54:01.466",
@@ -21,6 +18,229 @@
     }, 
     {
         "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
         "runs": [
             {
                 "finaltime": "16:23.933",
@@ -38,9 +258,251 @@
                 "hits": 26
             },
             {
-                "finaltime": "1:43:56.900",
-                "initialtime": "45:01.466",
-                "hits": 8
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, {
+        "player": "marti005",
+        "eliminated": "2",
+        "runs": [
+            {
+                "finaltime": "41:21.533",
+                "initialtime": "46:53.200",
+                "hits": 21
+            },
+            
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
+            }
+        ]
+    }, 
+    {
+        "player": "Gon",
+        "eliminated": null,
+        "runs": [
+            {
+                "finaltime": "16:23.933",
+                "initialtime": "28:43.733",
+                "hits": 0
+            },
+            {
+                "finaltime": "31:21.433",
+                "initialtime": "26:53.200",
+                "hits": 4
+            },
+            {
+                "finaltime": "22:56.900",
+                "initialtime": "54:01.466",
+                "hits": 26
             }
         ]
     }

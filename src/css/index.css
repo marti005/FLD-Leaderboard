@@ -1,3 +1,42 @@
+@font-face {
+  font-family:"8bitoperator Regular";
+  src:url("../fonts/8bitoperator.woff") format("woff");
+  font-weight:normal;
+  font-style:normal;
+}
+
+img {
+  width: 110px;
+  margin: 20px auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
-    display: grid;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: '8bitoperator Regular';
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  margin: auto;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-image: url("../images/background.webp");
+  background-position: center;
+  background-size: cover;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
 }

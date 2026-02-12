@@ -1,20 +1,51 @@
 #leaderboard {
     overflow: auto;
     margin: 20px auto;
+    table-layout: fixed;
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    font-size: 12pt;
+    border: 2px solid white;
 }
 
 td {
-    min-width: 100px;
-    border: 1px black solid;
+    padding: 7px 5px;
+}
+
+tr {
+    background-color: rgba(11, 57, 117, 0.8);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(21, 81, 160, 0.8);
+}
+
+.eliminated  {
+    background-color: rgba(184, 15, 15, 0.8);
+}
+
+.eliminated:nth-child(even) {
+    background-color: rgba(235, 38, 38, 0.8);
+}
+
+th {
+    padding: 10px 5px;
+    font-weight: normal;
+    font-size: 14pt;
 }
 
 .position {
-    width: 10px;
-    padding: 5px;
+    width: 20px;
 }
 
-#player {
+.player {
     min-width: 200px;
     text-align: left;
     padding-left: 5px;
+}
+
+.hits {
+    width: 60px;
 }
