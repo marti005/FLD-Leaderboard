@@ -6,7 +6,7 @@
     text-align: center;
     border-collapse: collapse;
     color: white;
-    font-size: 12pt;
+    font-size: 18pt;
     border: 2px solid white;
 }
 
@@ -33,11 +33,11 @@ tr:nth-child(even) {
 th {
     padding: 10px 5px;
     font-weight: normal;
-    font-size: 14pt;
+    font-size: 20pt;
 }
 
 .position {
-    width: 20px;
+    width: 30px;
 }
 
 .player {
@@ -48,4 +48,27 @@ th {
 
 .hits {
     width: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  #leaderboard {
+    font-size: 12pt;
+    width: 95%;
+  }
+
+  th {
+    font-size: 12pt;
+  }
+
+  td {
+    padding: 0 auto;
+  }
+
+  .position {
+    width: 15px;
+  }
+
+  .hits {
+    width: 30px;
+}
 }
