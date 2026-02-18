@@ -16,21 +16,45 @@ td {
 
 tr {
     background-color: rgba(11, 57, 117, 0.8);
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: rgba(60, 130, 187, 0.8);
 }
 
 tr:nth-child(even) {
     background-color: rgba(21, 81, 160, 0.8);
 }
 
+tr:nth-child(even):hover {
+    background-color: rgba(60, 130, 187, 0.8);
+}
+
 .eliminated  {
     background-color: rgba(184, 15, 15, 0.8);
+    cursor: default;
 }
 
 .eliminated:nth-child(even) {
     background-color: rgba(235, 38, 38, 0.8);
 }
 
+.eliminated:hover  {
+    background-color: rgba(184, 15, 15, 0.8);
+}
+
+.eliminated:nth-child(even):hover {
+    background-color: rgba(235, 38, 38, 0.8);
+}
+
+#header {
+    background-color: rgba(11, 57, 117, 0.8);
+}
+
+
 th {
+    cursor: default;
     padding: 10px 5px;
     font-weight: normal;
     font-size: 20pt;

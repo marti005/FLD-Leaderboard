@@ -1,5 +1,7 @@
 import "./css/chapterbuttons.css"
 
+const maxChapter = 4;
+
 function Chapterbutton({chapter, currentChapter, clickButton}) {
     let buttonid = (chapter === currentChapter) ? "selectedbutton": "chapterbutton";
 
@@ -9,7 +11,7 @@ function Chapterbutton({chapter, currentChapter, clickButton}) {
 export default function Chapterbuttons({clickButton, chapter}) {
     const buttons = [];
 
-    for (let i=1; i<=4; ++i) {
+    for (let i=1; i<=maxChapter; ++i) {
         buttons.push(<Chapterbutton key={i} chapter={i} currentChapter={chapter} clickButton={() => clickButton(i)}/>)
     }
 

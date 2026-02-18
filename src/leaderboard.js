@@ -1,49 +1,51 @@
 import "./css/leaderboard.css"
 
-import data from "./testdata.json"
-
-function TableRow({run, pos, chapter}) {
+function TableRow({player, pos, chapter}) {
     const allowed = [20, 15, 10, 4];
-    var bgcolor = (allowed[chapter] >= pos && run.runs[chapter] !== undefined) ? "" : "eliminated";
+    var run = player.runs.find((r) => r.chapter === chapter);
 
-    let finaltime = (run.runs[chapter] === undefined) ? "N/A" : run.runs[chapter].finaltime;
-    let hits = (run.runs[chapter] === undefined) ? "N/A" : run.runs[chapter].hits;
-    let initialtime = (run.runs[chapter] === undefined) ? "N/A" : run.runs[chapter].initialtime;
+    var bgcolor = (allowed[chapter] >= pos && run !== undefined) ? "" : "eliminated";
 
-    return <tr class={bgcolor}>
-        <td class="position">{pos}</td>
-        <td class="player">{run.player}</td>
+    let finaltime = (run === undefined) ? "N/A" : run.finaltime;
+    let hits = (run === undefined) ? "N/A" : run.hits;
+    let initialtime = (run === undefined) ? "N/A" : run.initialtime;
+    let link = (run === undefined) ? "N/A" : run.link
+
+    return <tr className={bgcolor} onClick={() => openLink(link)}>
+        <td className="position">{pos}</td>
+        <td className="player">{player.username}</td>
         <td>{finaltime}</td>
-        <td class= "hits">{hits}</td>
+        <td className= "hits">{hits}</td>
         <td>{initialtime}</td>
     </tr>
 }
 
-export default function Leaderboard({chapter}) {
-    const players = [];
+export default function Leaderboard({chapter, data}) {
+    const playersList = [];
     let i = 1;
-
-    data.sort(compareTimeChapter(chapter));
-    data.forEach((p) => {
-        if (p.eliminated === null || p.eliminated >= chapter) {
-            players.push(<TableRow run={p} pos={i} chapter={chapter-1}/>)
-            ++i;
-        }
-    });
-
+    if (data !== undefined && data.length > 0) {
+        console.log(data);    
+        data.sort(compareTimeChapter(chapter));
+        data.forEach((p) => {
+            if (p.eliminated_chapter === null || p.eliminated_chapter >= chapter) {
+                playersList.push(<TableRow player={p} pos={i} chapter={chapter}/>)
+                ++i;
+            }
+        });
+    }
     return <>
         <div>
         <table id="leaderboard">
             <tbody>
-                <tr>
-                    <th class="position">#</th>
-                    <th class="player">Player</th>
+                <tr id="header">
+                    <th className="position">#</th>
+                    <th className="player">Player</th>
                     <th>Final time</th>
-                    <th class="hits">Hits</th>
+                    <th className="hits">Hits</th>
                     <th>Initial time</th>
                 </tr>
+            {playersList}
             </tbody>
-            {players}
         </table>
         </div>
     </>
@@ -51,15 +53,17 @@ export default function Leaderboard({chapter}) {
 
 function compareTimeChapter(chapter) {
     return function compareTime(a, b) {
-        if (a.runs[chapter-1] === undefined) {
-            if (b.runs[chapter-1] === undefined) 
+        var runA = a.runs.find((r) => r.chapter === chapter);
+        var runB = b.runs.find((r) => r.chapter === chapter);
+        if (runA === undefined) {
+            if (runB === undefined) 
                 return a.player > b.player
             else return 1;
         } 
-        if (b.runs[chapter-1] === undefined) return -1;
+        if (runB === undefined) return -1;
 
-        let timeA = a.runs[chapter-1].finaltime.split(":");
-        let timeB = b.runs[chapter-1].finaltime.split(":");
+        let timeA = runA.finaltime.split(":");
+        let timeB = runB.finaltime.split(":");
 
         if (timeA.length === 2) timeA.unshift("00");
         if (timeB.length === 2) timeB.unshift("00");
@@ -95,4 +99,8 @@ function compareTimeChapter(chapter) {
             }
         }
     };
+}
+
+function openLink(link) {
+    if (link !== "N/A") window.open(link, "_blank")
 }
