@@ -57,7 +57,7 @@ function compareTimeChapter(chapter) {
         var runB = b.runs.find((r) => r.chapter === chapter);
         if (runA === undefined) {
             if (runB === undefined) 
-                if (a.username > b.username) return 1;
+                if (a.username.toUpperCase() > b.username.toUpperCase()) return 1;
                 else return -1;
             else return 1;
         } 
