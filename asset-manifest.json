@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FLD-Leaderboard/static/css/main.8e463cba.css",
-    "main.js": "/FLD-Leaderboard/static/js/main.8b4ef6c9.js",
+    "main.js": "/FLD-Leaderboard/static/js/main.522daa83.js",
     "static/media/dogcheck3.webp": "/FLD-Leaderboard/static/media/dogcheck3.57e506ad35ca6e719173.webp",
     "static/media/8bitoperator_jve.woff": "/FLD-Leaderboard/static/media/8bitoperator_jve.525cf1ff9fce01206489.woff",
     "static/media/logo.webp": "/FLD-Leaderboard/static/media/logo.58febf2cc540127ffbff.webp",
@@ -10,10 +10,10 @@
     "index.html": "/FLD-Leaderboard/index.html",
     "static/media/dogcheck1.webp": "/FLD-Leaderboard/static/media/dogcheck1.f1499507958499f4dbff.webp",
     "main.8e463cba.css.map": "/FLD-Leaderboard/static/css/main.8e463cba.css.map",
-    "main.8b4ef6c9.js.map": "/FLD-Leaderboard/static/js/main.8b4ef6c9.js.map"
+    "main.522daa83.js.map": "/FLD-Leaderboard/static/js/main.522daa83.js.map"
   },
   "entrypoints": [
     "static/css/main.8e463cba.css",
-    "static/js/main.8b4ef6c9.js"
+    "static/js/main.522daa83.js"
   ]
 }
