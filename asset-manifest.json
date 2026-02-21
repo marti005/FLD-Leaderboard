@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/FLD-Leaderboard/static/css/main.0211744a.css",
-    "main.js": "/FLD-Leaderboard/static/js/main.91e8db8b.js",
-    "static/media/logo.png": "/FLD-Leaderboard/static/media/logo.ce4a59cc8095d38ce545.png",
+    "main.css": "/FLD-Leaderboard/static/css/main.8e463cba.css",
+    "main.js": "/FLD-Leaderboard/static/js/main.8b4ef6c9.js",
+    "static/media/dogcheck3.webp": "/FLD-Leaderboard/static/media/dogcheck3.57e506ad35ca6e719173.webp",
     "static/media/8bitoperator_jve.woff": "/FLD-Leaderboard/static/media/8bitoperator_jve.525cf1ff9fce01206489.woff",
+    "static/media/logo.webp": "/FLD-Leaderboard/static/media/logo.58febf2cc540127ffbff.webp",
     "static/media/background.webp": "/FLD-Leaderboard/static/media/background.6d00cc07ecfebad763c8.webp",
+    "static/media/dogcheck2.webp": "/FLD-Leaderboard/static/media/dogcheck2.1b83ad86a0d97be28ada.webp",
     "index.html": "/FLD-Leaderboard/index.html",
-    "main.0211744a.css.map": "/FLD-Leaderboard/static/css/main.0211744a.css.map",
-    "main.91e8db8b.js.map": "/FLD-Leaderboard/static/js/main.91e8db8b.js.map"
+    "static/media/dogcheck1.webp": "/FLD-Leaderboard/static/media/dogcheck1.f1499507958499f4dbff.webp",
+    "main.8e463cba.css.map": "/FLD-Leaderboard/static/css/main.8e463cba.css.map",
+    "main.8b4ef6c9.js.map": "/FLD-Leaderboard/static/js/main.8b4ef6c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0211744a.css",
-    "static/js/main.91e8db8b.js"
+    "static/css/main.8e463cba.css",
+    "static/js/main.8b4ef6c9.js"
   ]
 }
