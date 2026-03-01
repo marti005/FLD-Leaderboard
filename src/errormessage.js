@@ -9,26 +9,10 @@ export default function ErrorMessage() {
     const random = Math.floor(Math.random() * dogs.length);
     const dog = dogs[random];
 
-    var w, h;
-    switch(random){
-        case 0:
-            w = 300;
-            h = 150;
-            break;
-        case 1:
-            w = 300;
-            h = 300;
-            break;
-        case 2:
-            w = 300;
-            h = 300;
-            break;
-    }
-
     return <>
         <div className="errorMessage">
-            <h1>The tournament hasn't started yet!</h1>
-            <h2>Check back after sign-ups have closed</h2>
+            <h1>Loading, please wait...</h1>
+            <h2>If the leaderboard doesn't show up after a few seconds, <br></br>let @marti005 know in the FLD server</h2>
             <img className="dogcheckimg" src={dog} alt="Dog check" ></img>
         </div>
     </>

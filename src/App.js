@@ -13,9 +13,9 @@ function App() {
   const [chapter, setChapter] = useState(1);
   const [data, setData] = useState([]);
 
-  /*useEffect(() => {
+  useEffect(() => {
     getData().then((data) => setData(data));
-  }, []);*/
+  }, []);
 
   function clickButton(chapter) {
     setChapter(chapter);

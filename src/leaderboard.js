@@ -1,7 +1,7 @@
 import "./css/leaderboard.css"
 
 function TableRow({player, pos, chapter}) {
-    const allowed = [20, 15, 10, 4];
+    const allowed = [59, 41, 23, 4];
     var run = player.runs.find((r) => r.chapter === chapter);
 
     var bgcolor = (allowed[chapter] >= pos && run !== undefined) ? "" : "eliminated";
