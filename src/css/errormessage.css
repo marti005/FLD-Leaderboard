@@ -25,10 +25,17 @@ h1 {
 
 h2 {
     font-size: 25pt;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 @media only screen and (max-width: 600px) {
     .errorMessage {
         width: 85%
+    }
+
+    h2 {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }

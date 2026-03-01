@@ -12,7 +12,7 @@ export default function ErrorMessage() {
     return <>
         <div className="errorMessage">
             <h1>Loading, please wait...</h1>
-            <h2>If the leaderboard doesn't show up after a few seconds, <br></br>let @marti005 know in the FLD server</h2>
+            <h2>If the leaderboard doesn't show up after a few seconds, let @marti005 know in the FLD server</h2>
             <img className="dogcheckimg" src={dog} alt="Dog check" ></img>
         </div>
     </>
