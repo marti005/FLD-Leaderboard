@@ -1,10 +1,29 @@
 import "./css/leaderboard.css"
 
+const allowed = [59, 41, 23, 4];
+
 function TableRow({player, pos, chapter}) {
-    const allowed = [59, 41, 23, 4];
     var run = player.runs.find((r) => r.chapter === chapter);
 
-    var bgcolor = (allowed[chapter] >= pos && run !== undefined) ? "" : "eliminated";
+    var bgcolor;
+
+    if (allowed[chapter] >= pos && run !== undefined) {
+        switch(pos) {
+            case 1:
+                bgcolor="first_place";
+                break;
+            case 2:
+                bgcolor="second_place";
+                break;
+            case 3:
+                bgcolor="third_place";
+                break;
+            default:
+                bgcolor="allowed";
+                break;
+        } 
+    } else bgcolor = "eliminated";
+
 
     let finaltime = "N/A";
     let hits = "N/A";
@@ -19,8 +38,6 @@ function TableRow({player, pos, chapter}) {
         link = run.link;
         note = run.note;
     }
-
-    console.log(note)
 
     return <tr className={bgcolor} onClick={() => openLink(link)} title={note}>
         <td className="position">{pos}</td>
