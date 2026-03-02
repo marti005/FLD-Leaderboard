@@ -1,29 +1,15 @@
 import "./css/leaderboard.css"
 
+import first_place from "./images/1st_place.webp"
+import second_place from "./images/2nd_place.webp"
+import third_place from "./images/3rd_place.webp"
+
 const allowed = [59, 41, 23, 4];
 
 function TableRow({player, pos, chapter}) {
     var run = player.runs.find((r) => r.chapter === chapter);
 
-    var bgcolor;
-
-    if (allowed[chapter] >= pos && run !== undefined) {
-        switch(pos) {
-            case 1:
-                bgcolor="first_place";
-                break;
-            case 2:
-                bgcolor="second_place";
-                break;
-            case 3:
-                bgcolor="third_place";
-                break;
-            default:
-                bgcolor="allowed";
-                break;
-        } 
-    } else bgcolor = "eliminated";
-
+    let bgcolor = "allowed";
 
     let finaltime = "N/A";
     let hits = "N/A";
@@ -38,6 +24,22 @@ function TableRow({player, pos, chapter}) {
         link = run.link;
         note = run.note;
     }
+
+    if (allowed[chapter] >= pos && run !== undefined) {
+        switch(pos) {
+            case 1:
+                pos = <img alt="First place icon" src={first_place}></img>;
+                break;
+            case 2:
+                pos = <img alt="Second place icon" src={second_place}></img>;
+                break;
+            case 3:
+                pos = <img alt="Third place icon" src={third_place}></img>;
+                break;
+            default:
+                break;
+        } 
+    } else bgcolor = "eliminated";
 
     return <tr className={bgcolor} onClick={() => openLink(link)} title={note}>
         <td className="position">{pos}</td>
