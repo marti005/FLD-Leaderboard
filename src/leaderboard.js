@@ -6,12 +6,23 @@ function TableRow({player, pos, chapter}) {
 
     var bgcolor = (allowed[chapter] >= pos && run !== undefined) ? "" : "eliminated";
 
-    let finaltime = (run === undefined) ? "N/A" : run.finaltime;
-    let hits = (run === undefined) ? "N/A" : run.hits;
-    let initialtime = (run === undefined) ? "N/A" : run.initialtime;
-    let link = (run === undefined) ? "N/A" : run.link
+    let finaltime = "N/A";
+    let hits = "N/A";
+    let initialtime = "N/A";
+    let link = "N/A"
+    let note = null;
 
-    return <tr className={bgcolor} onClick={() => openLink(link)}>
+    if (run !== undefined) {
+        finaltime = run.finaltime;
+        hits = run.hits;
+        initialtime = run.initialtime;
+        link = run.link;
+        note = run.note;
+    }
+
+    console.log(note)
+
+    return <tr className={bgcolor} onClick={() => openLink(link)} title={note}>
         <td className="position">{pos}</td>
         <td className="player">{player.username}</td>
         <td>{finaltime}</td>
@@ -24,7 +35,6 @@ export default function Leaderboard({chapter, data}) {
     const playersList = [];
     let i = 1;
     if (data !== undefined && data.length > 0) {
-        console.log(data);    
         data.sort(compareTimeChapter(chapter));
         data.forEach((p) => {
             if (p.eliminated_chapter === null || p.eliminated_chapter >= chapter) {
