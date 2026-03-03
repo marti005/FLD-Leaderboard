@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FLD-Leaderboard/static/css/main.5833e907.css",
-    "main.js": "/FLD-Leaderboard/static/js/main.8a4f0282.js",
+    "main.css": "/FLD-Leaderboard/static/css/main.82e0dc6d.css",
+    "main.js": "/FLD-Leaderboard/static/js/main.857746a7.js",
     "static/media/dogcheck3.webp": "/FLD-Leaderboard/static/media/dogcheck3.57e506ad35ca6e719173.webp",
     "static/media/8bitoperator_jve.woff": "/FLD-Leaderboard/static/media/8bitoperator_jve.525cf1ff9fce01206489.woff",
     "static/media/1st_place.webp": "/FLD-Leaderboard/static/media/1st_place.79ff5c74506c81005f39.webp",
@@ -12,11 +12,11 @@
     "static/media/dogcheck2.webp": "/FLD-Leaderboard/static/media/dogcheck2.1b83ad86a0d97be28ada.webp",
     "index.html": "/FLD-Leaderboard/index.html",
     "static/media/dogcheck1.webp": "/FLD-Leaderboard/static/media/dogcheck1.f1499507958499f4dbff.webp",
-    "main.5833e907.css.map": "/FLD-Leaderboard/static/css/main.5833e907.css.map",
-    "main.8a4f0282.js.map": "/FLD-Leaderboard/static/js/main.8a4f0282.js.map"
+    "main.82e0dc6d.css.map": "/FLD-Leaderboard/static/css/main.82e0dc6d.css.map",
+    "main.857746a7.js.map": "/FLD-Leaderboard/static/js/main.857746a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5833e907.css",
-    "static/js/main.8a4f0282.js"
+    "static/css/main.82e0dc6d.css",
+    "static/js/main.857746a7.js"
   ]
 }
