@@ -22,9 +22,9 @@ function App() {
   }
 
   var elements = [];
-  elements.push(<img src={logo} alt="FLD logo"></img>);
-  if (data.length > 0) elements.push(<Chapterbuttons clickButton={clickButton} chapter={chapter}/>)
-  elements.push(data.length === 0 ? <ErrorMessage /> : <Leaderboard chapter={chapter} data={data}/>)
+  elements.push(<img key="logo" src={logo} alt="FLD logo"></img>);
+  if (data.length > 0) elements.push(<Chapterbuttons key="buttons" clickButton={clickButton} chapter={chapter}/>)
+  elements.push(data.length === 0 ? <ErrorMessage key="error"/> : <Leaderboard key="leaderboard" chapter={chapter} data={data}/>)
 
   return (
     elements

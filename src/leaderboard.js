@@ -57,7 +57,7 @@ export default function Leaderboard({chapter, data}) {
         data.sort(compareTimeChapter(chapter));
         data.forEach((p) => {
             if (p.eliminated_chapter === null || p.eliminated_chapter >= chapter) {
-                playersList.push(<TableRow player={p} pos={i} chapter={chapter}/>)
+                playersList.push(<TableRow key={i} player={p} pos={i} chapter={chapter}/>)
                 ++i;
             }
         });

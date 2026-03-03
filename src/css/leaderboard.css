@@ -111,5 +111,6 @@ th {
   tr img {
     width: 120%;
     height: 120%;
+    max-height: 20px;
   }
 }
