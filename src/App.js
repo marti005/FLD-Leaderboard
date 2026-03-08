@@ -9,8 +9,10 @@ import logo from "./images/logo.webp"
 
 import getData from "./db/get_data.js"
 
+const currentChapter = 2;
+
 function App() {
-  const [chapter, setChapter] = useState(1);
+  const [chapter, setChapter] = useState(currentChapter);
   const [data, setData] = useState([]);
 
   useEffect(() => {
