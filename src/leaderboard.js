@@ -25,7 +25,7 @@ function TableRow({player, pos, chapter}) {
         note = run.note;
     }
 
-    if (allowed[chapter] >= pos && run !== undefined) {
+    if (allowed[chapter-1] >= pos && run !== undefined) {
         switch(pos) {
             case 1:
                 pos = <img alt="First place icon" src={first_place}></img>;
