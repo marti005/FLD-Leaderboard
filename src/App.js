@@ -34,7 +34,7 @@ function App() {
     let rest = raised.substring(raised.length-6)
     elements.push(<img key="logo" onClick={() => window.open("https://discord.gg/Twuu5NqqWg", "_blank")}src={logo} alt="FLD logo"></img>);
     elements.push(<h1 key="prizepool" className="prizepool">Current prize pool: <strong>${thousands},{rest}</strong></h1>)
-    elements.push(<a key="donatelink" className="donatelink"href="https://matcherino.com/tournaments/185578/overview">Donate!</a>)
+    elements.push(<h2 key="donatelink" className="donatelink" onClick={() => window.open("https://matcherino.com/tournaments/185578/overview", "_blank")}>Donate!</h2>)
     elements.push(<Chapterbuttons key="buttons" clickButton={clickButton} chapter={chapter}/>)
     elements.push(<Leaderboard key="leaderboard" chapter={chapter} data={data}/>)
   }

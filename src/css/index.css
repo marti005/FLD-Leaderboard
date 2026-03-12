@@ -56,10 +56,13 @@ strong {
   text-align: center;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
   margin-bottom: 20px;
+  max-width: 100px;
+  text-decoration: underline;
 }
 
 .donatelink:hover {
   color: yellow;
+  cursor: pointer;
 }
 
 .prizepool {
