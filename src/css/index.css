@@ -11,6 +11,7 @@ img {
   display: grid;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 body {
@@ -39,4 +40,28 @@ body::before {
   -o-filter: blur(10px);
   -ms-filter: blur(10px);
   filter: blur(10px);
+}
+
+strong {
+  color: yellow;
+  font-weight: normal;
+}
+
+.donatelink {
+  display: grid;
+  color: white;
+  font-size: 25pt;
+  font-weight: normal;
+  margin: auto;
+  text-align: center;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  margin-bottom: 20px;
+}
+
+.donatelink:hover {
+  color: yellow;
+}
+
+.prizepool {
+  margin-bottom: 10px;
 }
