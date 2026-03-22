@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/FLD-Leaderboard/static/css/main.19b951a3.css",
-    "main.js": "/FLD-Leaderboard/static/js/main.fc602c01.js",
-    "static/media/background.webp": "/FLD-Leaderboard/static/media/background.e50c24fd8f008e926584.webp",
+    "main.css": "/FLD-Leaderboard/static/css/main.e2a9d719.css",
+    "main.js": "/FLD-Leaderboard/static/js/main.a4496a23.js",
+    "static/media/background.webp": "/FLD-Leaderboard/static/media/background.72d9e25560cb9bdb5568.webp",
     "static/media/dogcheck3.webp": "/FLD-Leaderboard/static/media/dogcheck3.57e506ad35ca6e719173.webp",
     "static/media/8bitoperator_jve.woff": "/FLD-Leaderboard/static/media/8bitoperator_jve.525cf1ff9fce01206489.woff",
     "static/media/1st_place.webp": "/FLD-Leaderboard/static/media/1st_place.79ff5c74506c81005f39.webp",
@@ -12,11 +12,11 @@
     "static/media/dogcheck2.webp": "/FLD-Leaderboard/static/media/dogcheck2.1b83ad86a0d97be28ada.webp",
     "index.html": "/FLD-Leaderboard/index.html",
     "static/media/dogcheck1.webp": "/FLD-Leaderboard/static/media/dogcheck1.f1499507958499f4dbff.webp",
-    "main.19b951a3.css.map": "/FLD-Leaderboard/static/css/main.19b951a3.css.map",
-    "main.fc602c01.js.map": "/FLD-Leaderboard/static/js/main.fc602c01.js.map"
+    "main.e2a9d719.css.map": "/FLD-Leaderboard/static/css/main.e2a9d719.css.map",
+    "main.a4496a23.js.map": "/FLD-Leaderboard/static/js/main.a4496a23.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b951a3.css",
-    "static/js/main.fc602c01.js"
+    "static/css/main.e2a9d719.css",
+    "static/js/main.a4496a23.js"
   ]
 }
