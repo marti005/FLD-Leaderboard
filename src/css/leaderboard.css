@@ -36,11 +36,19 @@ tr {
 
 .eliminated  {
     background-color: rgba(184, 15, 15, 0.8);
-    cursor: default;
+    cursor: pointer;
+}
+
+.eliminated:hover  {
+    background-color: rgba(220, 76, 76, 0.8);
 }
 
 .eliminated:nth-child(even) {
     background-color: rgba(235, 38, 38, 0.8);
+}
+
+.eliminated:nth-child(even):hover {
+    background-color: rgba(234, 80, 80, 0.8);
 }
 
 .first_place {
