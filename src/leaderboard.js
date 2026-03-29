@@ -4,7 +4,7 @@ import first_place from "./images/1st_place.webp"
 import second_place from "./images/2nd_place.webp"
 import third_place from "./images/3rd_place.webp"
 
-const allowed = [59, 41, 23, 4];
+const allowed = [59, 41, 18, 4];
 
 function TableRow({player, pos, chapter}) {
     var run = player.runs.find((r) => r.chapter === chapter);
