@@ -1,6 +1,6 @@
 import "./css/chapterbuttons.css"
 
-const maxChapter = 3;
+const maxChapter = 4;
 
 function Chapterbutton({chapter, currentChapter, clickButton}) {
     let buttonid = (chapter === currentChapter) ? "selectedbutton": "chapterbutton";
