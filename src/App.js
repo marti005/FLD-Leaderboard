@@ -9,7 +9,7 @@ import logo from "./images/logo.webp"
 
 import {getData} from "./db/get_data.js"
 
-const currentChapter = 3;
+const currentChapter = 4;
 
 function App() {
   const [chapter, setChapter] = useState(currentChapter);
