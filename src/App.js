@@ -34,7 +34,9 @@ function App() {
     let thousands = raised.substring(0, raised.length-6)
     let rest = raised.substring(raised.length-6)
     elements.push(<img key="logo" onClick={() => window.open("https://discord.gg/Twuu5NqqWg", "_blank")}src={logo} alt="FLD logo"></img>);
-    elements.push(<h1 key="countdownText" className="prizepool">Chapter 4 submission ends in: <strong><Countdown date={new Date("2026-04-05T21:00:00+02:00")}/></strong></h1>)
+    elements.push(<h1 key="countdownText" className="prizepool">Time until Grand Finals: <strong><Countdown date={new Date("2026-04-18T19:00:00+02:00")}/></strong></h1>)
+    elements.push(<h2 key="donatelink" className="donatelink" onClick={() => window.open("https://www.twitch.tv/vintagiix", "_blank")}>Watch the match live!</h2>)
+    elements.push(<br></br>)
     elements.push(<h1 key="prizepool" className="prizepool">Current prize pool: <strong>${thousands},{rest}</strong></h1>)
     elements.push(<h2 key="donatelink" className="donatelink" onClick={() => window.open("https://matcherino.com/tournaments/185578/overview", "_blank")}>Donate!</h2>)
     elements.push(<Chapterbuttons key="buttons" clickButton={clickButton} chapter={chapter}/>)
