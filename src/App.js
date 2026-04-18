@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import Countdown from 'react-countdown';
 
 import Chapterbuttons from "./chapterbuttons.js"
 import Leaderboard from "./leaderboard.js";
