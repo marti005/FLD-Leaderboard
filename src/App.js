@@ -33,7 +33,7 @@ function App() {
     let thousands = raised.substring(0, raised.length-6)
     let rest = raised.substring(raised.length-6)
     elements.push(<img key="logo" onClick={() => window.open("https://discord.gg/Twuu5NqqWg", "_blank")}src={logo} alt="FLD logo"></img>);
-    elements.push(<h1 key="countdownText" className="prizepool">Fast Little Boys has ended!</h1>)
+    elements.push(<h1 key="countdownText" className="prizepool">Fast Little Dodgers has ended!</h1>)
     elements.push(<h2 key="donatelink" className="prizepool">Thank you for participating!</h2>)
     elements.push(<h2 key="prizepool" className="prizepool">Total amount raised: <strong>${thousands},{rest}</strong></h2>)
     elements.push(<br></br>)
